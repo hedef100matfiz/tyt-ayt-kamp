@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hedef 100 MAT-FİZ Kampı</title>
+  <link rel="icon" href="https://i.imgur.com/VU7cQdO.png" type="image/png">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+    }
+    h2, h3 {
+      color: #1e293b;
+    }
+    a.button {
+      display: inline-block;
+      padding: 12px 20px;
+      background-color: #3B82F6;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    img.responsive-img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+    .footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 40px;
+    }
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+    }
+    /* Başlık animasyonu */
+    h2 {
+      animation: fadeInUp 1s ease-in-out;
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    /* Sticky Menü (gelecekte menü eklenirse kullanılabilir) */
+    .sticky {
+      position: sticky;
+      top: 0;
+      background: white;
+      z-index: 999;
+    }
+    /* Ziyaretçi Sayacı */
+    .counter {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+<h2>🎯 Hedef 100 MAT-FİZ Kampı Başladı!</h2>
+
+<img src="https://i.imgur.com/VU7cQdO.png" alt="Kamp Tanıtımı" class="responsive-img">
+
+<p>🚀 6 haftada TYT ve AYT fizik ile matematik konularında fark yarat!<br>
+📍Online & Etkileşimli<br>
+📅 Başlangıç: <strong>21 Temmuz 2025 (Pazartesi)</strong></p>
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSe1DwbILcRhofFYYHgmtCWWc3qdg8B-oeuvFHhD80Ro3CWQaQ/viewform?usp=header" target="_blank" class="button">🚀 Hemen Ön Kayıt Ol</a>
+
+<hr>
+
+<h3>👨‍🏫 Kampı Kim Sunuyor?</h3>
+<p>Ben Ahmet Kula. Ondokuz Mayıs Üniversitesi Fizik mezunuyum. Yıllardır hem matematik hem de fizik dersleri veriyorum. Sınavlara hazırlıkta öğrencilerime güvenilir bir yol haritası sunuyorum. Bu kamp, sadece konuları öğretmekle kalmaz, taktik kazandırır.</p>
+
+<h3>📚 Kamp İçeriği</h3>
+<ul>
+  <li><strong>1. Hafta:</strong> TYT: Fizikte Temel Kavramlar & Matematikte Temel Kavramlar</li>
+  <li><strong>2. Hafta:</strong> Kuvvet ve Hareket & Sayılar</li>
+  <li><strong>3. Hafta:</strong> Newton’un Yasaları & Denklem Çözme</li>
+  <li><strong>4. Hafta:</strong> İş – Güç – Enerji & Problemler</li>
+  <li><strong>5. Hafta:</strong> İtme – Momentum & Grafikler</li>
+  <li><strong>6. Hafta:</strong> Basit Makineler & Fonksiyonlar</li>
+</ul>
+<p>Her hafta:<br>
+- 2 canlı ders (fizik + matematik)<br>
+- PDF notlar<br>
+- Etkileşimli ödev ve testler<br>
+- Reels tarzı videolarla eğlenceli tekrar</p>
+
+<h3>💎 Neden Bu Kamp?</h3>
+<ul>
+  <li>✅ Zamandan tasarruf</li>
+  <li>✅ Hem fizik hem matematik tek sayfada</li>
+  <li>✅ Sade anlatım, bol taktik</li>
+  <li>✅ Online takip sistemi</li>
+  <li>✅ Instagram üzerinden eğlenceli tekrarlarla destek</li>
+</ul>
+
+<h3>🤔 Sık Sorulan Sorular</h3>
+<p><strong>Soru:</strong> Kamp kimler için uygun?<br>
+<strong>Cevap:</strong> TYT/AYT’ye hazırlanan 10, 11 ve 12. sınıf öğrencileri ile mezunlar için.</p>
+<p><strong>Soru:</strong> Dersler canlı mı?<br>
+<strong>Cevap:</strong> Evet. Canlı derslerin kayıtları da sunulacak.</p>
+<p><strong>Soru:</strong> Kayıt nasıl oluyor?<br>
+<strong>Cevap:</strong> Aşağıdaki form üzerinden ön kayıt yapabilirsin. Kamp başlamadan detaylı bilgi verilecektir.</p>
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSe1DwbILcRhofFYYHgmtCWWc3qdg8B-oeuvFHhD80Ro3CWQaQ/viewform?usp=header" target="_blank" class="button">🚀 Kayıt Formuna Git</a>
+
+<div class="footer">
+  © 2025 Hedef 100 MAT-FİZ Kampı | Tüm Hakları Saklıdır
+</div>
+
+<!-- Ziyaretçi Sayacı (Sadece sizin görebileceğiniz şekilde) -->
+<div class="counter">
+  <script>
+    fetch('https://api.countapi.xyz/hit/hedef100matfiz.com/pageviews')
+      .then(response => response.json())
+      .then(data => console.log("Sayfa Görüntülenme Sayısı:", data.value));
+  </script>
+</div>
+
+<!-- SEO Meta -->
+<meta name="title" content="TYT–AYT Fizik ve Matematik Online Kamp | Hedef100MatFiz">
+<meta name="description" content="6 haftada sınava hazırlık kampına katıl, fizik ve matematikte fark yarat. Etkileşimli içerikler, canlı dersler, PDF notlarla destek.">
+<meta name="keywords" content="tyt fizik, ayt fizik, tyt matematik, online kamp, yks kampı, fizik kampı, matematik kampı, hedef100matfiz">
+
+</body>
+</html>
